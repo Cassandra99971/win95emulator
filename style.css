@@ -1,19 +1,28 @@
 body {
+  font-family: MS sans-serif;
+  background-color: #007F7F;
 }
 .dialog-box{
+  borders:top left #fff, right bottom #808080;
   border-width:3px;
   border-style:groove;
   padding:1px;
   margin:0 auto;
+  background-color: #C0C0C0;
+  width: 500px;
+  height: 150px;
 }
 
 .title{
+  background-color: #000080;
   height:18px;
   width:495px;
   padding:2px;
 }
 
 .title p{
+  color: white;
+  font-family: Tahoma;
   margin:2px 0 0 1px;
   float:left;
   font-weight:bold;
@@ -73,9 +82,11 @@ body {
 }
 
 .body button{
+  background-color: #C0C0C0;
+  borders:top left #fff, right bottom #808080;
   font-size:13px;
   border-width:3px;
-  border-style:solid;
+  border-style:ridge;
   margin-bottom:10px;
   outline:1px solid black;
 }
